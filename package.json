@@ -4,7 +4,7 @@
   "description": "",
   "main": "lambda-listener.js",
   "scripts": {
-    "dist": "node mail-listener-lambda.js",
+    "dist": "npm install && node mail-listener-lambda.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
